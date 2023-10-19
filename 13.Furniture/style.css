@@ -5,8 +5,8 @@
   text-decoration: none;
   list-style: none;
 }
-header{
-    padding: 10px;
+header {
+  padding: 10px;
 }
 #image {
   background-image: url("./image\ 3.svg");
@@ -23,6 +23,9 @@ header{
   column-gap: 50px;
   margin-right: 200px;
 }
+#image .container .header nav ul li a:hover {
+  color: #f79489;
+}
 nav ul li a {
   color: rgb(231, 237, 241);
 }
@@ -33,9 +36,7 @@ nav ul li a {
   text-align: center;
   justify-content: center;
 }
-.header .logo i{
-    display: none;
-}
+
 .mean p {
   text-align-last: center;
   color: aliceblue;
@@ -48,27 +49,191 @@ nav ul li a {
   width: 276px;
   background-color: rgba(240, 248, 255, 0.589);
   padding: 5px;
-  border: 1px solid  rgba(240, 248, 255, 0.651);
+  border: 1px solid rgba(240, 248, 255, 0.651);
   outline: none;
   border-radius: 20px;
   margin-left: 350px;
   margin-top: 20px;
   position: absolute;
   color: aliceblue;
-  
 }
-.mean .icone .i img{
-    position: relative;
-    margin-left: 600px;
-    margin-top: 25px;
+.mean .icone .i img {
+  position: relative;
+  margin-left: 600px;
+  margin-top: 25px;
+}
+#choosing {
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+}
+#choosing h1 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.boxmodel {
+  height: 180px;
+  width: 210px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+.boxmodel:hover {
+  transform: translateY(10px);
+  box-shadow: 5px 5px 6px 0px #f79489;
+  border: 1px solid #f79489;
+  cursor: pointer;
+}
+.boxmodel a {
+  color: #f79489;
+}
+#ideas {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40vh;
+}
+.ideas {
+  background-color: transparent;
+  height: 380px;
+  width: 550px;
+  margin-top: 45px;
+}
+.plas,
+.minus {
+  display: flex;
+  justify-content: space-between;
+}
+.cheirs .seting img {
+  height: 500px;
+  width: 600px;
+}
+#ideas a,
+.mins {
+  color: #f79489;
+}
+.mins {
+  font-size: 23px;
+}
+#feature {
+  height: 100vh;
+  width: 100%;
+}
+.product {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -90px;
+}
+#feature .image img {
+  height: 500px;
+  width: 260px;
+}
+#feature p {
+  color: gray;
+}
+.info {
+  margin-top: -99px;
+}
+#feature h1 {
+  margin-top: 320px;
+  font-size: 3rem;
+  margin-left: 450px;
+}
+.team h1 {
+  padding-bottom: 60px;
+  padding-left: 36%;
+  padding-top: 30px;
+}
+#services {
+  height: 70vh;
+  background-color: rgba(255, 241, 227, 0.566);
+}
+.player {
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  background-color: transparent;
+  width: 370px;
+  height: 250px;
+  transition: 0.4s;
+}
+.one:hover {
+  transform: translateY("10px");
+  box-shadow: 8px 8px 6px 0 rgb(182, 148, 103);
+}
+.foto {
+  display: flex;
+}
+.foto img {
+  border-radius: 50%;
+  height: 40px;
+  width: 50px;
+}
+#bed {
+  height: 50vh;
+}
+.bed {
+  display: flex;
+  justify-content: space-around;
+}
+.left-bed {
+  height: 90%;
+  width: 60%;
+  margin: 60px;
+}
+.right-bed img {
+  width: 80%;
+  height: 80%;
+  margin: 50px;
+}
+.icones input {
+  height: 38px;
+  width: 276px;
+  background-color: #f7948923;
+  padding: 5px;
+  border: 1px solid rgba(240, 248, 255, 0.651);
+  outline: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  position: absolute;
+  color: aliceblue;
+}
+.icones .i img {
+  position: relative;
+  margin-left: 240px;
+  margin-top: 25px;
+}
+#footer {
+  height: 60vh;
+  background: linear-gradient(to right, #d7b0cf 0%, #373335, black 100%);
+  margin-top: 150px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
+}
+#footer h3 {
+  color: #f79489;
+}
+#footer .footer .new nav ul li a:hover {
+  color: #f79489;
+  cursor: pointer;
 }
 @media screen and (max-width: 767px) {
-       nav  {
-        display: none;
-    }   
-    .mean .icone input {
-        margin-left: 30px;
-        margin-top: 20px;
-      }
-    
+  nav {
+    display: none;
+  }
+  .mean .icone input {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
 }
