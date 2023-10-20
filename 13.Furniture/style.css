@@ -44,7 +44,7 @@ nav ul li a {
 .mean {
   padding: 10%;
 }
-.mean .icone input {
+ .icone input {
   height: 38px;
   width: 276px;
   background-color: rgba(240, 248, 255, 0.589);
@@ -54,13 +54,16 @@ nav ul li a {
   border-radius: 20px;
   margin-left: 350px;
   margin-top: 20px;
-  position: absolute;
-  color: aliceblue;
-}
-.mean .icone .i img {
   position: relative;
-  margin-left: 600px;
-  margin-top: 25px;
+  color:#d18279;
+}
+.icone input::placeholder{
+color: #d18279;
+}
+.icone .i img {
+  position: absolute;
+  margin-left: 590px;
+  margin-top: -47px;
 }
 #choosing {
   background-color: white;
@@ -203,7 +206,10 @@ nav ul li a {
   border-radius: 20px;
   margin-top: 20px;
   position: absolute;
-  color: aliceblue;
+  color:#f79489;
+}
+.icones input::placeholder{
+  color: #f79489;
 }
 .icones .i img {
   position: relative;
@@ -219,6 +225,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-items: flex-start;
   padding-top: 10%;
 }
 #footer h3 {
@@ -235,5 +242,8 @@ nav ul li a {
   .mean .icone input {
     margin-left: 30px;
     margin-top: 20px;
+  }
+  .mean .icone .i img{
+   margin-left: 270px;
   }
 }
